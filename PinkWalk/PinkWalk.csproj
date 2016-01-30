@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47E99479-B3FE-4FEF-8879-AC531F1730D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PinkWalk</RootNamespace>
+    <AssemblyName>PinkWalk</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_0.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_1.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_10.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_11.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_12.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_13.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_14.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_15.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_16.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_17.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_18.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_19.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_2.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_20.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_3.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_4.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_5.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_6.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_7.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_8.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_0_9.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_0.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_1.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_10.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_11.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_2.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_3.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_4.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_5.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_6.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_7.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_8.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_1_9.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_0.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_1.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_10.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_11.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_12.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_13.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_14.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_15.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_16.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_17.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_18.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_19.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_2.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_3.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_4.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_5.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_6.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_7.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_8.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_2_9.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_0.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_1.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_10.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_11.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_12.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_13.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_14.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_15.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_16.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_17.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_18.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_19.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_2.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_20.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_21.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_22.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_23.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_24.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_25.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_26.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_27.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_28.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_29.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_3.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_30.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_31.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_32.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_33.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_34.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_35.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_36.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_37.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_38.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_39.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_4.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_40.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_41.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_42.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_5.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_6.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_7.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_8.png" />
+    <EmbeddedResource Include="Images\Kitzel\bigpinky_kitzel_3_9.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_0.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_1.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_2.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_3.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_4.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_5.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_6.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_7.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_8.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleleft_9.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_0.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_1.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_2.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_3.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_4.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_5.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_6.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_7.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_8.png" />
+    <EmbeddedResource Include="Images\Walk\bigpinky_allgemein_simpleright_9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
